@@ -12,6 +12,7 @@
   font-family: 'Josefin Sans', sans-serif;
   padding: 0;
   margin: 0;
+  font-size: 20px;
 }
 body {
   width: 100vw;
@@ -23,27 +24,97 @@ body {
 
 aside {
   margin: 25px;
-  width: 100%;
-  height: 100%;
   background-color: var(--body-bg-color);
   display: inline-block;
   position: relative;
   align-items: center;
   z-index: 1;
-  width: 20%;
   height: 100%;
 }
 
 header, nav, .tecnologias, .experiencias, .educacao {
-  width: 350px;
-  padding: 20px;
+  width: 100%;
+  padding: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   z-index: 2;
   margin-bottom: 25px;
-  border-radius: 10px;
+  border-radius: 0.5px 50px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   background-color: var(--bg-cards);
 }
+
+
+
+
+
+
+
+// main
+main {
+  margin-top: 25px;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-color: var(--body-bg-color);
+  align-items: center;
+  position: relative;
+}
+
+.recente, .recentePost {
+  margin: 25px 80px 0px 25px;; 
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  border-radius: 0.5px 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background-color: var(--bg-cards);
+}
+.recente {
+  justify-content: space-between;
+}
+.container{
+  margin: 25px 80px 0px 25px;; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+  border-radius: 0.5px 50px;
+
+ 
+}
+.projeto{
+  width: 49%;
+  padding: 40px;
+  height: 100%;
+  display:inline-block;
+  border-radius: 0.5px 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background-color: var(--bg-cards);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 750px) {
+ body, header, nav, .tecnologias, .experiencias, .educacao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+}  
