@@ -32,7 +32,7 @@ aside {
   height: 100%;
 }
 
-header, nav, .tecnologias, .experiencias, .educacao {
+header, nav, .tecnologias, .listas, .educacao {
   width: 100%;
   padding: 40px;
   display: flex;
@@ -138,6 +138,33 @@ nav ul li a img {
 }
 
 
+.listas {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.listas ul {
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-items: space-between;
+  margin-top: 20px;
+}
+.listas li {
+ margin-bottom: 10px;
+}
+
+.listas li h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.listas li p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+
 
 
 
@@ -200,7 +227,7 @@ main {
 
 
 @media (max-width: 750px) {
- body, header, nav, .tecnologias, .experiencias, .educacao {
+ body, header, nav, .tecnologias, .listas, .educacao {
     width: 100%;
     display: flex;
     flex-direction: column;
