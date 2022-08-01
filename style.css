@@ -192,6 +192,17 @@ main {
 .recente {
   justify-content: space-between;
 }
+.recente h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.recente  a {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--text-color);
+  letter-spacing: 1px;
+  text-decoration: none;
+}
 .container{
   margin: 25px 80px 0px 25px;; 
   display: flex;
