@@ -216,14 +216,52 @@ main {
 .projeto{
   width: 49%;
   padding: 40px;
-  height: 100%;
-  display:inline-block;
+  height: 250px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between; ;
   border-radius: 15px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   background-color: var(--bg-cards);
 }
 
+.projeto h5 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 
+.projeto img{
+  width: 20px;
+  height: 20px;
+  align-items: ;
+}
+
+.projeto p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.fotterProjeto{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.fotterProjeto p{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.fotterProjeto p img{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  color: green;
+}
 
 
 
