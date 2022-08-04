@@ -263,8 +263,8 @@ main {
   color: green;
 }
 
-.recentePost {
-  
+.recentePost img{
+  border-radius: 50%;
 }
 
 
